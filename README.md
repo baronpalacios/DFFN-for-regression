@@ -27,3 +27,7 @@ o Repeat Step 8 until bias and variance curve is drawn (see Figure 1).
 10. Report your all results.
 Figure
 
+
+![Capture](https://user-images.githubusercontent.com/32982938/59371323-62237580-8d4d-11e9-8c60-4e66516c6c6f.PNG)
+
+
