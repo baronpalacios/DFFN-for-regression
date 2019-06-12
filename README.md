@@ -4,7 +4,12 @@ Model a deep feed forward network for regression
 
 Part 1: Model a deep feed forward network for regression
 Assume that you are given a polynomial with multiple inputs and multiple outputs of the form: (𝑦1,𝑦2,…,𝑦𝑐)=𝑃(𝑥1,𝑥2,…,𝑥𝑑)
-For example: 𝑦1=2𝑥1𝑥2𝑥3+2𝑥4𝑥5−3𝑥6𝑥7𝑥8−7𝑥12𝑥8+2𝑥5 𝑦2=𝑥1𝑥5𝑥6−5𝑥3𝑥4−3𝑥2𝑥3−𝑥22𝑥4−2𝑥7𝑥8+1 𝑦3=𝑥32−𝑥5𝑥7−3𝑥1𝑥4𝑥6−12𝑥12𝑥2𝑥4−2 𝑦4=𝑥63−5𝑥1𝑥3𝑥8−3𝑥1𝑥4𝑥7−12𝑥52𝑥2𝑥4−3𝑥8 𝑦5=𝑥32𝑥5−𝑥3𝑥4𝑥8−𝑥1𝑥2𝑥4−3𝑥6+𝑥12𝑥7−1
+
+
+
+![Capturqe](https://user-images.githubusercontent.com/32982938/59371390-8bdc9c80-8d4d-11e9-8166-7e2cf65cd9a4.PNG)
+
+
 For this given set of polynomials, generate 𝑁𝑡 instances to train a network. Create an additional 𝑁𝑣 instances for validation of the trained model.
 1. Choose 𝑁𝑡 to be 900.
 2. In your training data add some noise to 𝑦𝑖’s from a normal distribution with 𝜇=0 and 𝜎=0.001.
